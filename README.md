@@ -27,7 +27,7 @@ This structure keeps the code clean, readable, and scalable.
 
 ⚙️ Setup Instructions
 1️⃣ Clone the repository
-git clone https://github.com/your-username/bion-frontend.git
+git clone (https://github.com/VoidByte-Innovations/Bion-Frontend.git)
 cd bion-frontend
 
 2️⃣ Install dependencies
