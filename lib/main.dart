@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:bion_frontend/modules/auth/screens/splash_screen.dart';
+import 'package:bion_frontend/modules/auth/screens/initial_splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Bion Frontend',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -30,7 +32,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const InitialSplashScreen(),
     );
   }
 }
